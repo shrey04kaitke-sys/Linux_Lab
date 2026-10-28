@@ -1,0 +1,3 @@
+Parent (PID 24776) sleeping 20 seconds. Child 24777 is a ZOMBIE until I call wait().
+Child (PID 24777) exiting now
+Parent: zombie removed

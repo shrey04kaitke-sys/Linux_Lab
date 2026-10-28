@@ -1,0 +1,13 @@
+Parent started. PID = 24772
+Child: PID = 24773, parent PID = 24772
+total 80
+drwxr-xr-x 2 shrey04 shrey04  4096 Oct 28 06:48 exp04-system-calls
+-rwxr-xr-x 1 shrey04 shrey04 16904 Oct 28 06:50 fork_exec_wait
+-rw-r--r-- 1 shrey04 shrey04  1148 Oct 28 06:48 fork_exec_wait.cpp
+-rwxr-xr-x 1 shrey04 shrey04 16720 Oct 28 06:50 orphan
+-rw-r--r-- 1 shrey04 shrey04   492 Oct 28 06:49 orphan.cpp
+-rw-r--r-- 1 shrey04 shrey04    67 Oct 28 06:51 output.txt
+-rwxr-xr-x 1 shrey04 shrey04 16752 Oct 28 06:50 zombie
+-rw-r--r-- 1 shrey04 shrey04   567 Oct 28 06:49 zombie.cpp
+Parent: child 24773 finished
+Child exit status: 0

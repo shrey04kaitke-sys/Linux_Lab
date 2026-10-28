@@ -1,0 +1,2 @@
+Parent (PID 24774) exiting. Child 24775 becomes an orphan.
+Child: my parent PID is now 372 (the original parent has exited, so I am an ORPHAN)
