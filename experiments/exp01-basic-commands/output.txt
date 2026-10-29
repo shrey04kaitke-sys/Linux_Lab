@@ -1,0 +1,63 @@
+$ pwd
+/tmp/tmp.v4zeQdodsH
+
+$ ls
+
+$ ls -l
+total 0
+
+$ ls -a
+.
+..
+
+$ ls -lh
+total 0
+
+$ mkdir LinuxLab
+
+$ rmdir LinuxLab
+
+$ touch sam.txt
+
+$ echo "Hello Linux"
+Hello Linux
+
+$ echo "Operating System Lab" > file.txt
+
+$ cat file.txt
+Operating System Lab
+
+$ cp file.txt copy.txt
+
+$ mv copy.txt program.txt
+
+$ rm program.txt
+
+$ date
+Thu Oct 29 09:24:07 UTC 2026
+
+$ whoami
+shrey04
+
+$ uname -a
+Linux SHREYASHI 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+$ clear  (not saved: no useful output)
+$ history  (not saved: no useful output)
+$ man ls  (first 15 lines)
+LS(1)                                                                 User Commands                                                                LS(1)
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List information about the FILEs (the current directory by default).  Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+       Mandatory arguments to long options are mandatory for short options too.
+
+       -a, --all
+              do not ignore entries starting with .
+
