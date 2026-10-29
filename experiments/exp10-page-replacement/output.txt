@@ -1,0 +1,8 @@
+===== page_replacement =====
+Reference string: 7 0 1 2 0 3 0 4 2 3 0 3 2 
+Frames: 3
+
+FIFO page faults:    10
+LRU page faults:     9
+Optimal page faults: 7
+

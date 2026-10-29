@@ -1,0 +1,13 @@
+===== reader_writer =====
+Writer 1 writes value 10
+Writer 2 writes value 20
+Reader 1 reads value 20
+Reader 2 reads value 20
+Reader 3 reads value 20
+Writer 1 writes value 30
+Writer 2 writes value 40
+Reader 1 reads value 40
+Reader 2 reads value 40
+Reader 3 reads value 40
+Final value: 40
+

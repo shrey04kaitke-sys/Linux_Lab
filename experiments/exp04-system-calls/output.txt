@@ -1,13 +1,26 @@
-Parent started. PID = 24772
-Child: PID = 24773, parent PID = 24772
-total 80
+===== fork_exec_wait =====
+Parent started. PID = 897
+Child: PID = 898, parent PID = 897
+total 88
 drwxr-xr-x 2 shrey04 shrey04  4096 Oct 28 06:48 exp04-system-calls
--rwxr-xr-x 1 shrey04 shrey04 16904 Oct 28 06:50 fork_exec_wait
+-rwxr-xr-x 1 shrey04 shrey04 16904 Oct 29 08:58 fork_exec_wait
 -rw-r--r-- 1 shrey04 shrey04  1148 Oct 28 06:48 fork_exec_wait.cpp
--rwxr-xr-x 1 shrey04 shrey04 16720 Oct 28 06:50 orphan
+-rwxr-xr-x 1 shrey04 shrey04 16720 Oct 29 08:58 orphan
 -rw-r--r-- 1 shrey04 shrey04   492 Oct 28 06:49 orphan.cpp
--rw-r--r-- 1 shrey04 shrey04    67 Oct 28 06:51 output.txt
--rwxr-xr-x 1 shrey04 shrey04 16752 Oct 28 06:50 zombie
+-rw-r--r-- 1 shrey04 shrey04    88 Oct 29 08:58 output.txt
+-rw-r--r-- 1 shrey04 shrey04   143 Oct 28 06:51 output_orphan.txt
+-rw-r--r-- 1 shrey04 shrey04   138 Oct 28 06:51 output_zombie.txt
+-rwxr-xr-x 1 shrey04 shrey04 16752 Oct 29 08:58 zombie
 -rw-r--r-- 1 shrey04 shrey04   567 Oct 28 06:49 zombie.cpp
-Parent: child 24773 finished
+Parent: child 898 finished
 Child exit status: 0
+
+===== orphan =====
+Parent (PID 899) exiting. Child 900 becomes an orphan.
+
+===== zombie =====
+Parent (PID 901) sleeping 20 seconds. Child 902 is a ZOMBIE until I call wait().
+Child (PID 902) exiting now
+Child: my parent PID is now 325 (the original parent has exited, so I am an ORPHAN)
+Parent: zombie removed
+

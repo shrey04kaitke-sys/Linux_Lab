@@ -1,0 +1,150 @@
+===== add.sh =====
+Enter first number:
+Enter second number:
+Sum = 42
+
+===== file_manager.sh =====
+
+===== File Management System =====
+1. Create File
+2. Delete File
+3. Rename File
+4. Copy File
+5. Move File
+6. Display File Contents
+7. Exit
+File 'test1.txt' created.
+
+===== File Management System =====
+1. Create File
+2. Delete File
+3. Rename File
+4. Copy File
+5. Move File
+6. Display File Contents
+7. Exit
+
+===== File Management System =====
+1. Create File
+2. Delete File
+3. Rename File
+4. Copy File
+5. Move File
+6. Display File Contents
+7. Exit
+Copied to 'test2.txt'.
+
+===== File Management System =====
+1. Create File
+2. Delete File
+3. Rename File
+4. Copy File
+5. Move File
+6. Display File Contents
+7. Exit
+Renamed to 'test3.txt'.
+
+===== File Management System =====
+1. Create File
+2. Delete File
+3. Rename File
+4. Copy File
+5. Move File
+6. Display File Contents
+7. Exit
+Moved to 'backup_demo'.
+
+===== File Management System =====
+1. Create File
+2. Delete File
+3. Rename File
+4. Copy File
+5. Move File
+6. Display File Contents
+7. Exit
+File 'test1.txt' deleted.
+
+===== File Management System =====
+1. Create File
+2. Delete File
+3. Rename File
+4. Copy File
+5. Move File
+6. Display File Contents
+7. Exit
+File not found.
+
+===== File Management System =====
+1. Create File
+2. Delete File
+3. Rename File
+4. Copy File
+5. Move File
+6. Display File Contents
+7. Exit
+Exiting.
+
+===== hello.sh =====
+Hello World
+
+===== student_records.sh =====
+
+===== Student Information System =====
+1. Add Student
+2. Display All Records
+3. Search by Roll Number
+4. Delete Student
+5. Exit
+Student added.
+
+===== Student Information System =====
+1. Add Student
+2. Display All Records
+3. Search by Roll Number
+4. Delete Student
+5. Exit
+Student added.
+
+===== Student Information System =====
+1. Add Student
+2. Display All Records
+3. Search by Roll Number
+4. Delete Student
+5. Exit
+Roll Name Marks
+1 Ravi 85
+2 Priya 90
+
+===== Student Information System =====
+1. Add Student
+2. Display All Records
+3. Search by Roll Number
+4. Delete Student
+5. Exit
+2 Priya 90
+
+===== Student Information System =====
+1. Add Student
+2. Display All Records
+3. Search by Roll Number
+4. Delete Student
+5. Exit
+Student deleted.
+
+===== Student Information System =====
+1. Add Student
+2. Display All Records
+3. Search by Roll Number
+4. Delete Student
+5. Exit
+Roll Name Marks
+2 Priya 90
+
+===== Student Information System =====
+1. Add Student
+2. Display All Records
+3. Search by Roll Number
+4. Delete Student
+5. Exit
+Exiting.
+
